@@ -40,7 +40,7 @@ header p {
     letter-spacing: -1px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    word-spacing: 0.09rem;
+    word-spacing: 1rem;
     margin-top: 1.5rem;
 }
 
@@ -448,9 +448,7 @@ font-weight: 300;
     margin-top: 1rem;
 }
 /* committee page css */
- .tb .tb1{
-    background-color: #0F0771;
- }
+ 
 
 
         
