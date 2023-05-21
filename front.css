@@ -442,10 +442,15 @@ font-weight: 300;
 .ug h1{
     margin-top: 1rem;
     text-decoration: underline;
+    
 }
 .ug h2{
     margin-top: 1rem;
 }
+/* committee page css */
+ .tb .tb1{
+    background-color: #0F0771;
+ }
 
 
         
