@@ -93,7 +93,9 @@ header p {
     margin-left: 2rem;
     border: none;
 }
-
+.commitee .card:hover{
+    background:linear-gradient(#0F0771,white)
+}
 .commitee {
     height: 28rem;
     border: 2px solid;
