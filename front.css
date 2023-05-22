@@ -84,7 +84,7 @@ header p {
         color: white;
     }
 }
-
+/* committee css */
 .commitee .card img {
     border-radius: 50%;
     width: 15rem;
@@ -128,7 +128,9 @@ header p {
 .facility .card {
     margin: 0.5rem;
 }
-
+.departments {
+    margin-top: 1rem;
+}
 .departments h1 {
     text-align: center;
     margin-top: 1rem;
@@ -476,6 +478,31 @@ font-weight: 300;
     margin-left: 5rem;
     border: 5px solid red;
 }
+/* .hline{
+    border: 5px solid  #0F0771;
+    margin-left: 3rem;
+    margin-right: 3rem;
+   } */
+   .horline::after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 30rem;
+    width: 60%;
+    height: 0.7rem;
+    background-color: #0F0771;
+    top: 4.6rem;
+}
+.horline1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 1rem;
+    width: 62%;
+    height: 0.7rem;
+    background-color: #0F0771;
+    top: 4.6rem;
+}
 .card-text1{
 margin-left: 5rem;
 margin-top: 2rem;
@@ -490,7 +517,11 @@ color: #0F0771;
 }
 
 /* classrom */
-
+.container-fluid{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: #0F0771;
+   }
 .card1{
 transition: all 0.2s;
 }
@@ -501,6 +532,9 @@ transform: scale(1.02);
 color: #0F0771;
 font-size: xx-large;
 text-align: center;
+}
+.p1{
+    margin-right: 2rem;
 }
 
 /* library */
