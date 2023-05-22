@@ -570,7 +570,7 @@ margin-left: 3rem;
 }
 /* traninning */
 .training1{
-    margin: 1rem;
+    margin-top: 1rem;
 }
 .card2{
     margin-left: 5rem;
@@ -622,34 +622,25 @@ margin-left: 3rem;
 .pt{
     margin-left: 2rem;
 }
-/* result */
-.card11{
-    border: 2px solid #0F0771;
-    margin-left: 25rem;
-    margin-top: 2rem;
-    border-radius: 2rem;
-   padding: 2rem;
-    box-shadow: 2px 3px 8px 3px black;
+.h22{
+    font-weight: bold;
+   margin-top: 1rem;
+   
 }
-.btn1{
-    background-color: #0F0771;
-    color: white;
-    border-radius: 20rem;
-    padding-left: 2rem;
-    padding-right:2rem;
-    padding-top:0.2rem;
-    padding-bottom:0.2rem;
-    text-align: center;
-}
-.card-title11{
-    margin-bottom: 2rem;
-    color: #0F0771;
+.form-check1{
+    /* text-align: center; */
     text-transform: uppercase;
+    margin-left: 5rem;
 }
-.card-body11{
-    margin: 1rem;
+.training6{
+    margin-left: 4rem;
+    font-weight: bold;
 }
- 
-
-
-        
+.hrrrr{
+    border: 5px solid #0F0771;
+    margin-left: 4rem;
+    margin-right: 0rem;
+}
+#frm,#frm1,#frm2{
+    margin-left: 0;
+}
