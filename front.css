@@ -569,27 +569,58 @@ margin-left: 3rem;
     color: #0F0771;
 }
 /* traninning */
+.training1{
+    margin: 1rem;
+}
 .card2{
-margin-left: 5rem;
-margin-top: 5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+   }
+   .card-body1{
+    margin-left: 5rem;
+    margin-top: 2rem;
+   }
+   .b1{
+    color: blue;
+   }
+   .training3{
+    color: #0F0771;
+   }
+   .card-title2{
+    color: #0F0771;
+    font-size: xx-large;
+   }
+   .p1{
+    text-align: center;
+    color: #0F0771;
 }
-.card-body1{
-margin-left: 5rem;
-margin-top: 2rem;
+.img-fluid{
+    box-shadow: 2px 3px 8px 3px black;
 }
-.b1{
-color:#0F0771;
+.training5{
+    color: black;
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
 .training3{
-color: #0F0771;
+    margin-left: 1rem;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.card-title2{
-color: #0F0771;
-font-size: xx-large;
+.training4{
+        color: black;
+        text-decoration: none;
+    }
+.b1{
+        color: blue;
+    }
+.hrrr{
+    border: 5px solid #0F0771;
+    margin-left: 1rem;
+    margin-right: 20rem;
 }
-.p1{
-text-align: center;
-color: #0F0771;
+.pt{
+    margin-left: 2rem;
 }
 /* result */
 .card11{
