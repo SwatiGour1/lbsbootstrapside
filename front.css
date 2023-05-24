@@ -709,5 +709,13 @@ margin-left: 3rem;
 #cr1,#cr2{
     border: 2px solid #0F0771;
 }
-
+/* sundarpichai program */
+.sundar{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ /* .sundar .container{
+    background:linear-gradient(to bottom #0F0771,white);
+    opacity: 0.5;
+ } */
  
