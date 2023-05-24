@@ -174,7 +174,7 @@ header p {
 .gallery{
     background-color: #0F0771;
     margin-top: 1rem;
-}
+    }
 .gallery h1{
     text-align: center;
     margin-top: 1rem;
@@ -185,6 +185,7 @@ header p {
 }
 .glrgrp{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .incre h1{
     text-align: center;
@@ -301,6 +302,9 @@ footer map{
            font-size: 4rem;
            text-decoration: underline;
         }
+        .prinpag span,strong{
+            margin-left: 39rem;
+        }
        .prin .pimg {
             border-radius: 50%;
             float: left;
@@ -321,6 +325,7 @@ footer map{
     border-right-style: none;
     font-weight: 600;
    }
+
    /* course page */
    #course .btn{
     background-color: #0F0771;
