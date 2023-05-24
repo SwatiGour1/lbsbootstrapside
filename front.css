@@ -682,3 +682,27 @@ margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+/* subhashchandra bose progr */
+.subh h1{
+    margin-top: 1rem;
+    text-decoration: underline;
+    color: #0F0771;
+    
+}
+.subh p{
+    margin-top: 1rem;
+}
+.subh .card{
+    border: none;
+    margin-top: 1rem;
+}
+.subh .card h1{
+    text-decoration: none;
+    border-right: none;
+    margin-top: 1rem;
+}
+#cr1,#cr2{
+    border: 2px solid #0F0771;
+}
+
+ 
