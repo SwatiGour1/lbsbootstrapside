@@ -302,7 +302,7 @@ footer map{
            font-size: 4rem;
            text-decoration: underline;
         }
-        .prinpag span,strong{
+        .prinpag .sp1,.sp2{
             margin-left: 39rem;
         }
        .prin .pimg {
