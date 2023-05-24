@@ -492,7 +492,7 @@ font-weight: 300;
     content: "";
     position: absolute;
     display: block;
-    left: 30rem;
+    right: 1rem;
     width: 60%;
     height: 0.7rem;
     background-color: #0F0771;
