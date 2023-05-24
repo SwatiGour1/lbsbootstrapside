@@ -53,13 +53,13 @@ header p {
 }
 
 .nav-item a {
-    color: #0F0771;
+    color:var(--main-color);
     font-size: 19px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .container-fluid a {
-    color: #0F0771;
+    color:var(--main-color);
     font-size: 19px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
@@ -68,7 +68,7 @@ header p {
 .navbar .btn {
     margin-left: 2px;
     color: white;
-    background: #0F0771;
+    background:var(--main-color);
     animation: change 2s linear 1s infinite;
     border: none;
 }
@@ -76,12 +76,12 @@ header p {
 @keyframes change {
     from {
         background-color: red;
-        color: white;
+        color:var(--color);
     }
 
     to {
-        background-color: #0F0771;
-        color: white;
+        background-color:var(--main-color);
+        color:var(--color);
     }
 }
 /* committee css */
@@ -99,13 +99,13 @@ header p {
 .commitee {
     height: 28rem;
     border: 2px solid;
-    background-color: #0F0771;
+    background-color:var(--main-color);
 }
 
 .commitee h1 {
     text-align: center;
     margin-top: 1rem;
-    color: white;
+    color:var(--color);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
@@ -122,7 +122,7 @@ header p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     text-align: center;
-    color: #0F0771;
+    color:var(--main-color);
 }
 
 .facility .card {
@@ -135,7 +135,7 @@ header p {
     text-align: center;
     margin-top: 1rem;
     /* color:#0F0771; */
-    color: white;
+    color:var(--color);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
@@ -152,33 +152,33 @@ header p {
 
 .departments {
     border: 2px solid;
-    background-color: #0F0771;
+    background-color:var(--main-color);
     height: 22rem;
 }
 
 .addprgm h1 {
     text-align: center;
     margin-top: 1rem;
-    color:#0F0771;
+    color:var(--main-color);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
 }
 .addprgm .card-body{
-    background-color: #0F0771;
+    background-color:var(--main-color);
     color: white;
     text-align: center;
     /* margin-left:0.4rem; */
     text-decoration: underline;
 }
 .gallery{
-    background-color: #0F0771;
+    background-color:var(--main-color);
     margin-top: 1rem;
     }
 .gallery h1{
     text-align: center;
     margin-top: 1rem;
-    color:white;
+    color:var(--color);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
@@ -190,18 +190,18 @@ header p {
 .incre h1{
     text-align: center;
     margin-top: 1rem;
-    color:#0F0771;
+    color:var(--main-color);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;  
 }
 .incre .counter{
-    color: #0F0771;
+    color:var(--main-color);
     text-align: center;
 }
 .incre .card-text{
     text-align: center;
-    color: #0F0771;
+    color:var(--main-color);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
 }
@@ -209,7 +209,7 @@ header p {
     margin-top: 1rem;
 }
 footer{
-    background-color: #0F0771;
+    background-color:var(--main-color);
     margin-top: 1rem;
 }
 footer ul li{
@@ -217,7 +217,7 @@ footer ul li{
 }
 footer ul li a{
     text-decoration: none;
-    color: white;
+    color:var(--color);
 }
 footer map{
     width: 100px;
@@ -229,19 +229,19 @@ footer map{
 .nss h1{
     text-decoration: underline;
     margin-top: 1rem;
-    color: #0F0771;
+    color:var(--main-color);
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
 }
 .nss p{
-    color: #0F0771;
+    color:var(--main-color);
     font-family: 'Times New Roman', Times, serif;
 }
 .nss .container .card{
     margin-top: 1rem;
 }
 .nss .container .card-body{
-    background-color: #0F0771;
+    background-color:var(--main-color);
     color: white;
     text-align: center;
 }
@@ -264,7 +264,7 @@ footer map{
             left: 4vw;
             width: 93%;
             height: 0.5vw;
-            background-color: #0F0771;
+            background-color:var(--main-color);
         }
         .about img{
             margin-top: 1rem;
@@ -283,7 +283,7 @@ footer map{
          }
         .about .card{
             margin-top: 2rem;
-            border: 5px solid #0F0771;
+            border: 5px solid var(--main-color);
             background-color: lightgrey;
         }
         .about .card img{
@@ -292,7 +292,7 @@ footer map{
         }
         .about .c1 :hover{
             background-color:gray;
-            color: white;
+            color:var(--color);
         }
         /* principal page */
         .prinpag h1{
@@ -320,7 +320,7 @@ footer map{
   box-sizing: border-box;
     /* border: 20px solid darkblue; */
     box-shadow: 5px 5px 80px 10px rgb(162, 162, 248);
-    border: 15px solid darkblue;
+    border: 15px solid var(--main-color);
     border-left-style: none;
     border-right-style: none;
     font-weight: 600;
@@ -328,19 +328,19 @@ footer map{
 
    /* course page */
    #course .btn{
-    background-color: #0F0771;
+    background-color:var(--main-color);
     color: white;
     margin-left: 2rem;
    }
    #course a{
-    color: white;
+    color:var(--color);
     text-decoration: none;
    }
   #course .bcom .bcomdiv .btn{
     margin-left:2rem;
  }
  #course .btn:hover{
-    border: 2px solid #0F0771;
+    border: 2px solid var(--main-color);
  }
  /* pg page css */
  .pgcourse{
@@ -348,11 +348,11 @@ footer map{
  }
  .pgcourse .btn{
     margin-left: 2rem;
-    background-color: #0F0771;
-    color: white;
+    background-color:var(--main-color);
+    color:var(--color);
  }
  .pgcourse .btn:hover{
-    border: 2px solid #0F0771;
+    border: 2px solid var(--main-color);
  }
  /* footer css */
  footer .map iframe{
@@ -495,7 +495,7 @@ font-weight: 300;
     right: 1.5rem;
     width: 56%;
     height: 0.7rem;
-    background-color: #0F0771;
+    background-color:var(--main-color);
     top: 4.6rem;
 }
 .horline1::after{
@@ -505,24 +505,24 @@ font-weight: 300;
     left: 1rem;
     width: 62%;
     height: 0.7rem;
-    background-color: #0F0771;
+    background-color:var(--main-color);
     top: 4.6rem;
 }
 .card-text1{
 margin-left: 5rem;
 margin-top: 2rem;
-color: #0F0771;
+color:var(--main-color);
 }
 .hrr1{
 border: 5px solid red;
 }
 .card-text2{
 margin-top: 2rem;
-color: #0F0771;
+color:var(--main-color);
 }
    /* result */
    .card11{
-    border: 2px solid #0F0771;
+    border: 2px solid var(--main-color);
     margin-left: 25rem;
     margin-top: 2rem;
     border-radius: 2rem;
@@ -530,8 +530,8 @@ color: #0F0771;
     box-shadow: 2px 3px 8px 3px black;
 }
 .btn1{
-    background-color: #0F0771;
-    color: white;
+    background-color:var(--main-color);
+    color:var(--color);
     border-radius: 20rem;
     padding-left: 2rem;
     padding-right:2rem;
@@ -541,25 +541,25 @@ color: #0F0771;
 }
 .card-title11{
     margin-bottom: 2rem;
-    color: #0F0771;
+    color:var(--main-color);
     text-transform: uppercase;
 }
 .card-body11{
     margin: 1rem;
 }
 .btn11{
-    background-color: white;
-    color: #0F0771;
+    background-color:var(--color);
+    color:var(--main-color);
     border-radius: 1rem;
     padding: 0.5rem;
-    border: 2px solid #0F0771;
+    border: 2px solid var(--main-color);
 }
 
 /* classrom */
 .container-fluid{
     margin-left: 5rem;
     margin-right: 5rem;
-    color: #0F0771;
+    color:var(--main-color);
    }
 .card1{
 transition: all 0.2s;
@@ -568,7 +568,7 @@ transition: all 0.2s;
 transform: scale(1.02);
 }
 .card-title1{
-color: #0F0771;
+color:var(--main-color);
 font-size: xx-large;
 text-align: center;
 }
@@ -584,7 +584,7 @@ margin-left: 3rem;
 margin-top: 2rem;
 }
 .h11{
-    color: #0F0771;
+    color:var(--main-color);
     margin-top: 1rem;
     text-decoration: underline;
 }
@@ -594,7 +594,7 @@ margin-left: 3rem;
 }
 #card4,#card5 ,#card6, #card7{
     /* border: 4px solid #0F0771; */
-    box-shadow: 2px 2px 4px 3px #0F0771;
+    box-shadow: 2px 2px 4px 3px var(--main-color);
 }
 /* laboratories */
 .scelab{
@@ -605,7 +605,7 @@ margin-left: 3rem;
 .comh{
     text-align: center;
     margin: 2rem;
-    color: #0F0771;
+    color: var(--main-color);
 }
 /* traninning */
 .training1{
@@ -623,15 +623,15 @@ margin-left: 3rem;
     color: blue;
    }
    .training3{
-    color: #0F0771;
+    color:var(--main-color);
    }
    .card-title2{
-    color: #0F0771;
+    color:var(--main-color);
     font-size: xx-large;
    }
    .p1{
     text-align: center;
-    color: #0F0771;
+    color:var(--main-color);
 }
 .img-fluid{
     box-shadow: 2px 3px 8px 3px black;
@@ -654,7 +654,7 @@ margin-left: 3rem;
         color: blue;
     }
 .hrrr{
-    border: 5px solid #0F0771;
+    border: 5px solid var(--main-color);
     margin-left: 1rem;
     margin-right: 20rem;
 }
@@ -676,7 +676,7 @@ margin-left: 3rem;
     font-weight: bold;
 }
 .hrrrr{
-    border: 5px solid #0F0771;
+    border: 5px solid var(--main-color);
     margin-left: 4rem;
     margin-right: 0rem;
 }
@@ -691,7 +691,7 @@ margin-left: 3rem;
 .subh h1{
     margin-top: 1rem;
     text-decoration: underline;
-    color: #0F0771;
+    color:var(--main-color);
     }
 .subh p{
     margin-top: 1rem;
@@ -704,10 +704,10 @@ margin-left: 3rem;
     text-decoration: none;
     border-right: none;
     margin-top: 1rem;
-    color: #0F0771;
+    color:var(--main-color);
 }
 #cr1,#cr2{
-    border: 2px solid #0F0771;
+    border: 2px solid var(--main-color);
 }
 /* sundarpichai program */
 .sundar{
@@ -722,7 +722,7 @@ margin-left: 3rem;
  .container-md{
     background-color:#fff;
     height: auto;
-    border: 5px solid #0F0771;
+    border: 5px solid var(--main-color);
     border-top-left-radius :15px;
     border-top-right-radius: 15px;
     margin-bottom: 6px;
@@ -730,8 +730,8 @@ margin-left: 3rem;
 .container-md h1{
     color:#fff;
     text-align: center;
-    background-color: #0F0771;
-    border: 3px solid #0F0771;
+    background-color:var(--main-color);
+    border: 3px solid var(--main-color);
     border-top-left-radius :15px;
     border-top-right-radius: 15px;
     margin-top: 5px;
@@ -749,19 +749,19 @@ margin-left: 3rem;
 }
 .container-md button:hover{
     cursor: pointer;
-    background-color: #0F0771 ;
+    background-color:var(--main-color) ;
 }
 .container-md button:active{
     transform: scale(0.95);
 }
 .container-md button:first-of-type{
-    background-color: #0F0771;
+    background-color:var(--main-color);
 }
 .container-md h2{
     font-size: 28px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#0F0771;
+    color:var(--main-color);
     list-style: none;
     text-align: center;
     margin-top: 60px;
@@ -779,7 +779,7 @@ margin-left: 3rem;
     font-size: 22px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#0F0771;
+    color:var(--main-color);
     list-style: none;
     text-align: center;
     margin-top: 60px;
@@ -787,8 +787,8 @@ margin-left: 3rem;
   }
   .container-md .img-fluid{
     border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid  #0F0771;
-    border-right:5px solid  #0F0771 ;
+    border-left: 5px solid var(--main-color);
+    border-right:5px solid var(--main-color);
     margin-left: 55px;
     margin-bottom: 12px;
     margin-top: 12px;
