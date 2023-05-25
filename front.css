@@ -529,10 +529,11 @@ color:var(--main-color);
    /* result */
    .card11{
     border: 2px solid var(--main-color);
-    margin-left: 25rem;
-    margin-top: 2rem;
+    /* margin-left: 25rem; */
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
     border-radius: 2rem;
-   padding: 2rem;
+   /* padding: 2rem; */
     box-shadow: 2px 3px 8px 3px black;
 }
 .btn1{
