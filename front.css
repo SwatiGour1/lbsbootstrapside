@@ -331,6 +331,7 @@ footer map{
     background-color:var(--main-color);
     color: white;
     margin-left: 2rem;
+    margin-bottom: 2rem;
    }
    #course a{
     color:var(--color);
@@ -341,6 +342,11 @@ footer map{
  }
  #course .btn:hover{
     border: 2px solid var(--main-color);
+    background-color: var(--color);
+    color: var(--main-color);
+ }
+ #course a:hover{
+    color: var(--main-color);
  }
  /* pg page css */
  .pgcourse{
