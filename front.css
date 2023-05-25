@@ -471,6 +471,7 @@ font-weight: 300;
 
 .h11{
     text-align: center;
+    margin-top: 1rem;
 }
 .img{
     border: none;
@@ -489,31 +490,19 @@ font-weight: 300;
     margin-left: 5rem;
     border: 5px solid red;
 }
-/* .hline{
-    border: 5px solid  #0F0771;
-    margin-left: 3rem;
-    margin-right: 3rem;
-   } */
+
    .horline::after{
     content: "";
     position: absolute;
     display: block;
-    right: 1.5rem;
-    width: 56%;
+    right: 0rem;
+    width: 58.5%;
     height: 0.7rem;
     background-color:var(--main-color);
     top: 4.6rem;
+
 }
-.horline1::after{
-    content: "";
-    position: absolute;
-    display: block;
-    left: 1rem;
-    width: 62%;
-    height: 0.7rem;
-    background-color:var(--main-color);
-    top: 4.6rem;
-}
+
 .card-text1{
 margin-left: 5rem;
 margin-top: 2rem;
@@ -583,25 +572,21 @@ text-align: center;
     margin-right: 2rem;
 }
 
-/* library */
-.libpara{
-color:black;
-margin-left: 3rem;
-margin-left: 3rem;
-margin-top: 2rem;
-}
-.h11{
-    color:var(--main-color);
+   /* library */
+   .libpara{
+    color:black;
+    margin-left: 3rem;
+    margin-left: 3rem;
     margin-top: 1rem;
-    text-decoration: underline;
-}
-.libsir{
-/* color:#0F0771; */
-margin-left: 3rem;
-}
-#card4,#card5 ,#card6, #card7{
-    /* border: 4px solid #0F0771; */
-    box-shadow: 2px 2px 4px 3px var(--main-color);
+    color: var(--main-color);
+   }
+ .libsir{
+    color:#0F0771;
+    text-align: center;
+ } 
+
+.cd{
+   box-shadow: 2px 2px 5px 3px var(--main-color);
 }
 /* laboratories */
 .scelab{
