@@ -9,41 +9,23 @@
     box-sizing: border-box;
 }
 
-header {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* margin-top: 10px; */
-    background-color: var(--main-color);
-    /* border-bottom-right-radius: 18.75rem; */
-    width: 100%;
-    height: 10%;
-    
-}
-
-header .img1 {
-    margin-left: 1rem;
-}
-
-header span {
-    margin-left: 26rem;
-    font-size: 1.5rem;
-}
-
-header p {
+.hp{
     color: white;
     text-transform: capitalize;
-    margin-left: 3rem;
-    font-size: 1.9rem;
+    /* margin-left: 3rem; */
+    /* font-size: 1.9rem; */
     letter-spacing: -1px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     word-spacing: 1rem;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
-
+.hp span,b{
+    word-spacing: 0;
+ }
+ .hp span{
+    margin-left: 15rem;
+ }
 #carouselExample {
     margin-top: 0;
 }
