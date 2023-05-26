@@ -153,6 +153,20 @@
     /* margin-left:0.4rem; */
     text-decoration: underline;
 }
+.addprgm .adda{
+    animation: change1 2s linear 1s infinite;
+}
+@keyframes change1 {
+    from {
+    color: red;
+text-decoration: none;
+    }
+
+    to {
+        color:yellow;
+        text-decoration: none;
+    }
+}
 .gallery{
     background-color:var(--main-color);
     margin-top: 1rem;
@@ -193,24 +207,7 @@
 .incre .container{
     margin-top: 1rem;
 }
-/* footer{
-    background-color:var(--main-color);
-    margin-top: 1rem;
-}
-footer ul li{
-    list-style: none;
-}
-footer ul li a{
-    text-decoration: none;
-    color:var(--color);
-}
-footer map{
-    width: 50px;
-    height: 100px;
-}
-.icon i{
-    margin-top: 2rem;
-} */
+
 /* footer */
 ul li {
     list-style: none;
@@ -748,6 +745,94 @@ text-align: center;
   }
   .form-control::placeholder{
     color: var(--main-color);
-    font-size: 15px;
+    font-size: 13px;
     text-transform: capitalize;
   }
+  /* contact us
+  .md1{
+    background: linear-gradient(to right, #0F0771 35%, white 15%);
+    border: 5px solid #0F0771;
+    border-top-left-radius :15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 6px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.md1 h1{
+    color:#fff;
+    text-align: center;
+    background-color: #0F0771;
+    border: 3px solid #0F0771;
+    border-top-left-radius :15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    left: 15px;
+   
+}
+.md1 img{
+margin-left: 140px;
+position: relative;
+top: 150px;
+
+}
+.container-md1 iframe{
+    max-width: 400px;
+    margin-left: 18px;
+    margin-right: auto;
+    position: relative;
+    bottom: 120px;
+}
+.container-md1 p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff ;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 850px;
+    position: relative;
+    bottom: 150px;
+    
+}
+.container-md1 h2{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#0F0771;
+    list-style: none;
+    text-align: right;
+    margin-left:350px;
+    margin-right: 300px;
+    margin-top: 20px;
+   
+}
+.con{
+   
+    margin-right:150px;
+    margin-top: 40px;
+    margin-left:650PX;
+    color:black;
+   
+    
+}
+.con input[type="email"],
+      input[type="password"]{
+
+border: 1px solid #0F0771;
+
+}
+.subbit{
+    margin-left: 650px;
+    margin-top: 20px;
+    background-color: #0F0771;
+    margin-right: 60px;
+}
+ .text{
+    color: #0F0771;
+    font-weight: bold;
+    margin-left: 610px;
+    font-size:20px;
+    
+    
+ }  */
