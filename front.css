@@ -314,7 +314,7 @@ ul li {
    }
 
    /* course page */
-   #course .btn{
+   #course .btn1{
     background-color:var(--main-color);
     color: white;
     margin-left: 2rem;
