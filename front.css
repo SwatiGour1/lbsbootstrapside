@@ -350,17 +350,7 @@ ul li {
  .pgcourse .btn:hover{
     border: 2px solid var(--main-color);
  }
- /* footer css */
- footer .map iframe{
-    width: 25rem;
-    height: 20rem;
- }
-   footer  input{
-    margin-bottom:0.5rem;
-   }
-   footer .linked{
-    margin-bottom: 0.5rem;
-   }
+
    /* alumni page css */
    .alumni h1{
     text-align: center;
@@ -696,24 +686,21 @@ text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
  }
- /* .sundar .container{
-    background:linear-gradient(to bottom #0F0771,white);
-    opacity: 0.5;
- } */
- /* sabrang css */
- .container-md{
+
+  /* genreal */
+  .container-md{
     background-color:#fff;
     height: auto;
-    border: 5px solid var(--main-color);
+    border: 5px solid #0F0771;
     border-top-left-radius :15px;
     border-top-right-radius: 15px;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
 }
 .container-md h1{
     color:#fff;
     text-align: center;
-    background-color:var(--main-color);
-    border: 3px solid var(--main-color);
+    background-color: #0F0771;
+    border: 3px solid #0F0771;
     border-top-left-radius :15px;
     border-top-right-radius: 15px;
     margin-top: 5px;
@@ -731,49 +718,29 @@ text-align: center;
 }
 .container-md button:hover{
     cursor: pointer;
-    background-color:var(--main-color) ;
+    background-color: #0F0771 ;
 }
 .container-md button:active{
     transform: scale(0.95);
 }
+
 .container-md button:first-of-type{
-    background-color:var(--main-color);
+    background-color: #0F0771 ;
 }
 .container-md h2{
-    font-size: 28px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:var(--main-color);
-    list-style: none;
-    text-align: center;
-    margin-top: 60px;
-  }
-  .container-md p{
     font-size: 18px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #423d3d ;
-    text-decoration: none;
-    text-align: center;
-    margin-top:40px;
+    color:black;
+    margin-top: 60px;
   }
-  .container-md h3{
-    font-size: 22px;
+  .container-md a{
+    font-size: 15px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:var(--main-color);
-    list-style: none;
-    text-align: center;
-    margin-top: 60px;
-    
-  }
-  .container-md .img-fluid{
-    border-radius: 20px 0px 20px 0px;
-    border-left: 5px solid var(--main-color);
-    border-right:5px solid var(--main-color);
-    margin-left: 55px;
-    margin-bottom: 12px;
-    margin-top: 12px;
+    color:red;
+    margin-top: 20px;
+  
   }
   .form-control{
     height: 30px;
