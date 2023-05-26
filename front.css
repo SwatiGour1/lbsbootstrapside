@@ -169,6 +169,9 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.glrgrp img{
+    margin-bottom: 0.5rem;
+}
 .incre h1{
     text-align: center;
     margin-top: 1rem;
@@ -190,7 +193,7 @@
 .incre .container{
     margin-top: 1rem;
 }
-footer{
+/* footer{
     background-color:var(--main-color);
     margin-top: 1rem;
 }
@@ -202,12 +205,17 @@ footer ul li a{
     color:var(--color);
 }
 footer map{
-    width: 100px;
+    width: 50px;
     height: 100px;
 }
 .icon i{
     margin-top: 2rem;
+} */
+/* footer */
+ul li {
+    list-style: none;
 }
+/* nss css */
 .nss h1{
     text-decoration: underline;
     margin-top: 1rem;
@@ -285,7 +293,7 @@ footer map{
            text-decoration: underline;
         }
         .prinpag .sp1,.sp2{
-            margin-left: 39rem;
+            margin-left: 36rem;
         }
        .prin .pimg {
             border-radius: 50%;
@@ -362,13 +370,13 @@ footer map{
 }
 .alumnicontainer{
     position: relative;
-    left: 5rem;
+    left: 1rem;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     
     /* border: 2px solid; */
     }
@@ -766,4 +774,13 @@ text-align: center;
     margin-left: 55px;
     margin-bottom: 12px;
     margin-top: 12px;
+  }
+  .form-control{
+    height: 30px;
+    border-radius: 0;
+  }
+  .form-control::placeholder{
+    color: var(--main-color);
+    font-size: 15px;
+    text-transform: capitalize;
   }
