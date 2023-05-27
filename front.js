@@ -16,3 +16,9 @@ else{
 }
 updatecounter();
 })
+function myfunction() {
+    alert("Results is opening  please wait a second!");
+  }
+  function MyClose(){
+confirm("do you want to close this");
+  }
