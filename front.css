@@ -950,3 +950,67 @@ ul li {
     margin-bottom: 8px;
     margin-top: 12px;
 }
+#map {
+    height: 300px;
+  
+  }
+  .text{
+  color: #0F0771;
+  font-weight: bold;
+  font-size:20px;
+}
+  .container-md{
+  border: 5px solid #0F0771;
+  border-top-left-radius :15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 6px;
+  height: auto;
+  margin-top: 12px;
+
+}
+.container-md h1{
+  color:#fff;
+  text-align: center;
+  background-color: #0F0771;
+  border: 3px solid #0F0771;
+  border-top-left-radius :15px;
+  border-top-right-radius: 15px;
+  margin-top: 5px;
+  
+}
+.container-md p{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:black ;
+  text-align:center;
+  margin-top: 30px;
+  
+}
+
+.contact-form input[type="email"],
+            input[type="text"]{
+border: 1px solid #0F0771;
+
+
+}
+.form-control{
+border: 1px solid #0F0771;
+}
+ 
+  .contact-form {
+    padding: 20px;
+    
+  }
+
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color:#0F0771;
+  }
+  .btn{
+    background-color: #0F0771 ;
+    margin-top: 12px;
+  }
+  label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
